@@ -1,0 +1,103 @@
+\hypertarget{classTerrain}{}\section{Terrain Struct Reference}
+\label{classTerrain}\index{Terrain@{Terrain}}
+
+
+Cette classe est utilisée pour la conception du terrain.  
+
+
+
+
+{\ttfamily \#include $<$terrain.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classTerrain_a7160a06ab07a86ed97d23374405e8ef6}{Terrain} ()\hypertarget{classTerrain_a7160a06ab07a86ed97d23374405e8ef6}{}\label{classTerrain_a7160a06ab07a86ed97d23374405e8ef6}
+
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut de la classe \hyperlink{classTerrain}{Terrain}. \end{DoxyCompactList}\item 
+\hyperlink{classTerrain_a2f7f0a2aee54886324ccf48a6f321de0}{$\sim$\+Terrain} ()\hypertarget{classTerrain_a2f7f0a2aee54886324ccf48a6f321de0}{}\label{classTerrain_a2f7f0a2aee54886324ccf48a6f321de0}
+
+\begin{DoxyCompactList}\small\item\em Destructeur par défaut de la classe \hyperlink{classTerrain}{Terrain}. \end{DoxyCompactList}\item 
+\hyperlink{classTerrain_a592e2417235408aeca62743052c3d700}{Terrain} (int x, int y)\hypertarget{classTerrain_a592e2417235408aeca62743052c3d700}{}\label{classTerrain_a592e2417235408aeca62743052c3d700}
+
+\begin{DoxyCompactList}\small\item\em Constructeur par copie de la classe \hyperlink{classTerrain}{Terrain}. \end{DoxyCompactList}\item 
+int \hyperlink{classTerrain_a0694fde866e04fc407f5c52691562ee2}{get\+Dimx} () const \hypertarget{classTerrain_a0694fde866e04fc407f5c52691562ee2}{}\label{classTerrain_a0694fde866e04fc407f5c52691562ee2}
+
+\begin{DoxyCompactList}\small\item\em Accesseur \+: récupère la dimension du terrain en abscisses X. \end{DoxyCompactList}\item 
+int \hyperlink{classTerrain_a79ca2b938f00bbacb972d9786317f185}{get\+Dimy} () const \hypertarget{classTerrain_a79ca2b938f00bbacb972d9786317f185}{}\label{classTerrain_a79ca2b938f00bbacb972d9786317f185}
+
+\begin{DoxyCompactList}\small\item\em Accesseur \+: récupère la dimension du terrain en abscisses Y. \end{DoxyCompactList}\item 
+char \hyperlink{classTerrain_a0fb16a05e3de6156d25327a6ea73209f}{get\+Terr} () const \hypertarget{classTerrain_a0fb16a05e3de6156d25327a6ea73209f}{}\label{classTerrain_a0fb16a05e3de6156d25327a6ea73209f}
+
+\begin{DoxyCompactList}\small\item\em Accesseur \+: récupère la construction du terrain sur les repères XY. \end{DoxyCompactList}\item 
+void \hyperlink{classTerrain_a433a2f713c6a55128f250f61c3d057ee}{set\+Dimx} (int x)
+\begin{DoxyCompactList}\small\item\em Mutateur \+: modifie la composante x du terrain. \end{DoxyCompactList}\item 
+void \hyperlink{classTerrain_a6ebb8d283986bd02aad7f254bc6eefae}{set\+Dimy} (int y)
+\begin{DoxyCompactList}\small\item\em Mutateur \+: modifie la composante y du terrain. \end{DoxyCompactList}\item 
+void \hyperlink{classTerrain_a8f1161c22d690102c833bd27bb3ea4d2}{set\+Terr} (char $\ast$$\ast$tab)
+\begin{DoxyCompactList}\small\item\em Mutateur \+: modifie la composante terr du terrain. \end{DoxyCompactList}\item 
+void \hyperlink{classTerrain_ac5237ac72c56a15d5020981d2679a855}{init\+\_\+terrain} ()\hypertarget{classTerrain_ac5237ac72c56a15d5020981d2679a855}{}\label{classTerrain_ac5237ac72c56a15d5020981d2679a855}
+
+\begin{DoxyCompactList}\small\item\em Procédure qui permet d\textquotesingle{}initialiser le terrain. \end{DoxyCompactList}\item 
+void \hyperlink{classTerrain_a4d824dcf1e3d06003ce21a15e1a51038}{afficher\+\_\+terrain} ()\hypertarget{classTerrain_a4d824dcf1e3d06003ce21a15e1a51038}{}\label{classTerrain_a4d824dcf1e3d06003ce21a15e1a51038}
+
+\begin{DoxyCompactList}\small\item\em Procédure qui permet d\textquotesingle{}afficher le terrain. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Cette classe est utilisée pour la conception du terrain. 
+
+\subsection{Member Function Documentation}
+\index{Terrain@{Terrain}!set\+Dimx@{set\+Dimx}}
+\index{set\+Dimx@{set\+Dimx}!Terrain@{Terrain}}
+\subsubsection[{\texorpdfstring{set\+Dimx(int x)}{setDimx(int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Terrain\+::set\+Dimx (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{classTerrain_a433a2f713c6a55128f250f61c3d057ee}{}\label{classTerrain_a433a2f713c6a55128f250f61c3d057ee}
+
+
+Mutateur \+: modifie la composante x du terrain. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \+: donnée entier \\
+\hline
+\end{DoxyParams}
+\index{Terrain@{Terrain}!set\+Dimy@{set\+Dimy}}
+\index{set\+Dimy@{set\+Dimy}!Terrain@{Terrain}}
+\subsubsection[{\texorpdfstring{set\+Dimy(int y)}{setDimy(int y)}}]{\setlength{\rightskip}{0pt plus 5cm}void Terrain\+::set\+Dimy (
+\begin{DoxyParamCaption}
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}\hypertarget{classTerrain_a6ebb8d283986bd02aad7f254bc6eefae}{}\label{classTerrain_a6ebb8d283986bd02aad7f254bc6eefae}
+
+
+Mutateur \+: modifie la composante y du terrain. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em y} & \+: donnée entier \\
+\hline
+\end{DoxyParams}
+\index{Terrain@{Terrain}!set\+Terr@{set\+Terr}}
+\index{set\+Terr@{set\+Terr}!Terrain@{Terrain}}
+\subsubsection[{\texorpdfstring{set\+Terr(char $\ast$$\ast$tab)}{setTerr(char **tab)}}]{\setlength{\rightskip}{0pt plus 5cm}void Terrain\+::set\+Terr (
+\begin{DoxyParamCaption}
+\item[{char $\ast$$\ast$}]{tab}
+\end{DoxyParamCaption}
+)}\hypertarget{classTerrain_a8f1161c22d690102c833bd27bb3ea4d2}{}\label{classTerrain_a8f1161c22d690102c833bd27bb3ea4d2}
+
+
+Mutateur \+: modifie la composante terr du terrain. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em terr} & \+: tableau 2D d\textquotesingle{}entiers \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/terrain.\+h\end{DoxyCompactItemize}

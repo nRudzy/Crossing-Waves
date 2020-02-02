@@ -1,0 +1,42 @@
+\hypertarget{classJeu}{}\section{Jeu Class Reference}
+\label{classJeu}\index{Jeu@{Jeu}}
+
+
+Collaboration diagram for Jeu\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classJeu_acc5795ee00edf75516d3dfe65be3e6d6}{Jeu} ()
+\item 
+void {\bfseries run} ()\hypertarget{classJeu_a5bc56be835d0e0080ade744d0ed34325}{}\label{classJeu_a5bc56be835d0e0080ade744d0ed34325}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Render\+Window {\bfseries window}\hypertarget{classJeu_a06b053a7257763c7bb2ef15ee4d67123}{}\label{classJeu_a06b053a7257763c7bb2ef15ee4d67123}
+
+\item 
+\hyperlink{classHeros}{Heros} {\bfseries personnage}\hypertarget{classJeu_a354e9d58bed8855d21ad6da521d66e44}{}\label{classJeu_a354e9d58bed8855d21ad6da521d66e44}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Jeu@{Jeu}!Jeu@{Jeu}}
+\index{Jeu@{Jeu}!Jeu@{Jeu}}
+\subsubsection[{\texorpdfstring{Jeu()}{Jeu()}}]{\setlength{\rightskip}{0pt plus 5cm}Jeu\+::\+Jeu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classJeu_acc5795ee00edf75516d3dfe65be3e6d6}{}\label{classJeu_acc5795ee00edf75516d3dfe65be3e6d6}
+
+
+ \begin{DoxyVerb}                                     FONCTIONS SYSTEME ***********************************************************\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/jeu.\+h\item 
+src/jeu.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,581 @@
+# depslib dependency file v1.0
+1490716189 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/heros.cpp
+	"heros.h"
+	"../var/variables.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<iostream>
+
+1490542342 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/heros.h
+	"terrain.h"
+	<SFML/Graphics.hpp>
+
+1488887397 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/terrain.h
+
+1490870164 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/jeu.cpp
+	"jeu.h"
+	"../var/variables.h"
+	"heros.h"
+	"balle.h"
+	"ennemi.h"
+	"pickup.h"
+	<vector>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1490869745 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/jeu.h
+	"heros.h"
+	"terrain.h"
+	"ennemi.h"
+	"balle.h"
+	"pickup.h"
+	<vector>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1490089520 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/terrain.cpp
+	<assert.h>
+	"terrain.h"
+
+1490088199 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/txt/main_txt.cpp
+	"txtJeu.h"
+
+1488499013 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/txt/winTxt.h
+
+1488496800 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/txt/txtJeu.h
+	"../core/jeu.h"
+
+1490089719 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/txt/txtJeu.cpp
+	<iostream>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<windows.h>
+	<unistd.h>
+	"winTxt.h"
+	"../core/jeu.h"
+
+1488495530 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/txt/winTxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1490719991 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/var/variables.cpp
+	"variables.h"
+	<iostream>
+
+1490682538 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/var/variables.h
+	<stdio.h>
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1490656630 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/ennemi.h
+	"terrain.h"
+	"heros.h"
+	"../var/variables.h"
+
+1488898348 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/tir.cpp
+	"terrain.h"
+	"tir.h"
+	"heros.h"
+	"ennemi.h"
+	"balle.h"
+
+1490692516 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/ennemi.cpp
+	"ennemi.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1490713510 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/sfml/main_sfml.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<iostream>
+	"menu.h"
+	"terrain_sfml.h"
+	"../core/jeu.h"
+
+1488884108 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/sfml/sfmlJeu.h
+	<SFML/Graphics.hpp>
+	"../core/jeu.h"
+
+1488884484 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/sfml/sfmlJeu.cpp
+	<SFML/Graphics.hpp>
+	"../var/variables.h"
+	"../core/terrain.h"
+	"../core/jeu.h"
+	"../core/ennemi.h"
+	"../core/heros.h"
+	"sfmlJeu.h"
+
+1488898306 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/tir.h
+	"terrain.h"
+	"balle.h"
+
+1490714588 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/balle.cpp
+	"balle.h"
+	"heros.h"
+
+1490658455 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/balle.h
+	"terrain.h"
+	"ennemi.h"
+	"../var/variables.h"
+	"heros.h"
+
+1490088039 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/sfml/menu.h
+	<SFML/Graphics.hpp>
+
+1490088257 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/sfml/terrain_sfml.h
+	<SFML/Graphics.hpp>
+
+1490088035 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/sfml/menu.cpp
+	"menu.h"
+
+1490088247 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/sfml/terrain_sfml.cpp
+	<SFML/Graphics.hpp>
+	"terrain_sfml.h"
+
+1490685426 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/pickup.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1490692571 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-devjeufinal/src/core/pickup.cpp
+	"pickup.h"
+
+1490714588 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/balle.cpp
+	"balle.h"
+	"heros.h"
+
+1490658455 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/balle.h
+	"terrain.h"
+	"ennemi.h"
+	"../var/variables.h"
+	"heros.h"
+
+1488887397 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/terrain.h
+
+1490656630 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/ennemi.h
+	"terrain.h"
+	"heros.h"
+	"../var/variables.h"
+
+1490542342 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/heros.h
+	"terrain.h"
+	<SFML/Graphics.hpp>
+
+1490682538 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/var/variables.h
+	<stdio.h>
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1490692516 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/ennemi.cpp
+	"ennemi.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1490716189 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/heros.cpp
+	"heros.h"
+	"../var/variables.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<iostream>
+
+1490723831 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/jeu.cpp
+	"jeu.h"
+	"../var/variables.h"
+	"heros.h"
+	"balle.h"
+	"ennemi.h"
+	"pickup.h"
+	<vector>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1490715180 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/jeu.h
+	"heros.h"
+	"terrain.h"
+	"ennemi.h"
+	"balle.h"
+	"pickup.h"
+	<vector>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1490685426 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/pickup.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1490692571 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/pickup.cpp
+	"pickup.h"
+
+1490089520 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/core/terrain.cpp
+	<assert.h>
+	"terrain.h"
+
+1490713510 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/sfml/main_sfml.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<iostream>
+	"menu.h"
+	"terrain_sfml.h"
+	"../core/jeu.h"
+
+1490088039 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/sfml/menu.h
+	<SFML/Graphics.hpp>
+
+1490088257 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/sfml/terrain_sfml.h
+	<SFML/Graphics.hpp>
+
+1490088035 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/sfml/menu.cpp
+	"menu.h"
+
+1490088247 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/sfml/terrain_sfml.cpp
+	<SFML/Graphics.hpp>
+	"terrain_sfml.h"
+
+1490088199 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/txt/main_txt.cpp
+	"txtJeu.h"
+
+1488496800 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/txt/txtJeu.h
+	"../core/jeu.h"
+
+1490089719 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/txt/txtJeu.cpp
+	<iostream>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<windows.h>
+	<unistd.h>
+	"winTxt.h"
+	"../core/jeu.h"
+
+1488499013 /home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/txt/winTxt.h
+
+1488495530 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/txt/winTxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1490719991 source:/home/rudzy/Documents/Own/CPP/p1408459-devjeufinal/src/var/variables.cpp
+	"variables.h"
+	<iostream>
+
+1491471689 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/balle.cpp
+	"balle.h"
+	"heros.h"
+
+1491471572 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/balle.h
+	"terrain.h"
+	"ennemi.h"
+	"../var/variables.h"
+	"heros.h"
+
+1488887397 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/terrain.h
+
+1491469107 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/ennemi.h
+	"terrain.h"
+	"heros.h"
+	"../var/variables.h"
+
+1491380047 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/heros.h
+	"terrain.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1491517490 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/var/variables.h
+	<stdio.h>
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1491469642 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/ennemi.cpp
+	"ennemi.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1491512632 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/heros.cpp
+	"heros.h"
+	"../var/variables.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<iostream>
+
+1491895974 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/jeu.cpp
+	"jeu.h"
+	"../var/variables.h"
+	"heros.h"
+	"balle.h"
+	"ennemi.h"
+	"pickup.h"
+	"../sfml/menu.h"
+	<vector>
+	<unistd.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1491895452 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/jeu.h
+	"heros.h"
+	"terrain.h"
+	"ennemi.h"
+	"balle.h"
+	"pickup.h"
+	"block.h"
+	"../sfml/menu.h"
+	<vector>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<SFML/System.hpp>
+
+1491895324 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/pickup.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1491895353 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/pickup.cpp
+	"pickup.h"
+
+1490089520 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/terrain.cpp
+	<assert.h>
+	"terrain.h"
+
+1491293536 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/sfml/main_sfml.cpp
+	"../core/jeu.h"
+
+1490088039 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/sfml/menu.h
+	<SFML/Graphics.hpp>
+
+1490088257 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/sfml/terrain_sfml.h
+	<SFML/Graphics.hpp>
+
+1490088035 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/sfml/menu.cpp
+	"menu.h"
+
+1490088247 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/sfml/terrain_sfml.cpp
+	<SFML/Graphics.hpp>
+	"terrain_sfml.h"
+
+1490088199 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/txt/main_txt.cpp
+	"txtJeu.h"
+
+1488496800 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/txt/txtJeu.h
+	"../core/jeu.h"
+
+1490089719 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/txt/txtJeu.cpp
+	<iostream>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<windows.h>
+	<unistd.h>
+	"winTxt.h"
+	"../core/jeu.h"
+
+1488499013 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/txt/winTxt.h
+
+1488495530 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/txt/winTxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1491895989 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/var/variables.cpp
+	"variables.h"
+	<iostream>
+
+1491512682 source:/home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/block.cpp
+	"block.h"
+
+1491406770 /home/rudzy/Documents/L2_S4/LIFAP4/Projet_Jeu/p1408459-cwaves/src/core/block.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1491471689 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/balle.cpp
+	"balle.h"
+	"heros.h"
+
+1491471572 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/balle.h
+	"terrain.h"
+	"ennemi.h"
+	"../var/variables.h"
+	"heros.h"
+
+1488887397 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/terrain.h
+
+1491469107 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/ennemi.h
+	"terrain.h"
+	"heros.h"
+	"../var/variables.h"
+
+1491380047 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/heros.h
+	"terrain.h"
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1491517490 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/var/variables.h
+	<stdio.h>
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1491512682 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/block.cpp
+	"block.h"
+
+1491406770 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/block.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1491469642 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/ennemi.cpp
+	"ennemi.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1491512632 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/heros.cpp
+	"heros.h"
+	"../var/variables.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<iostream>
+
+1491652482 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/jeu.cpp
+	"jeu.h"
+	"../var/variables.h"
+	"heros.h"
+	"balle.h"
+	"ennemi.h"
+	"pickup.h"
+	"../sfml/menu.h"
+	<vector>
+	<unistd.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1491517498 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/jeu.h
+	"heros.h"
+	"terrain.h"
+	"ennemi.h"
+	"balle.h"
+	"pickup.h"
+	"block.h"
+	"../sfml/menu.h"
+	<vector>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<SFML/System.hpp>
+
+1491293200 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/pickup.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1490088039 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/sfml/menu.h
+	<SFML/Graphics.hpp>
+
+1491293201 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/core/pickup.cpp
+	"pickup.h"
+
+1491293536 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/sfml/main_sfml.cpp
+	"../core/jeu.h"
+
+1490088035 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/sfml/menu.cpp
+	"menu.h"
+
+1490088247 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/sfml/terrain_sfml.cpp
+	<SFML/Graphics.hpp>
+	"terrain_sfml.h"
+
+1490088257 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/sfml/terrain_sfml.h
+	<SFML/Graphics.hpp>
+
+1490088199 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/txt/main_txt.cpp
+	"txtJeu.h"
+
+1488496800 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/txt/txtJeu.h
+	"../core/jeu.h"
+
+1490089719 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/txt/txtJeu.cpp
+	<iostream>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<windows.h>
+	<unistd.h>
+	"winTxt.h"
+	"../core/jeu.h"
+
+1488499013 /home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/txt/winTxt.h
+
+1488495530 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/txt/winTxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1491642711 source:/home/rudzy/Documents/Own/CPP/p1408459-cwaves/src/var/variables.cpp
+	"variables.h"
+	<iostream>
+

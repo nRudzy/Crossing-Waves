@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projetJeuFinal" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/JeuLIFAP4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML-STATIC" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/JeuLIFAP4" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="../SFML-2.4.2/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-window" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-system" />
+			<Add library="sfml-audio" />
+			<Add directory="../SFML-2.4.2/lib" />
+		</Linker>
+		<Unit filename="src/core/balle.cpp" />
+		<Unit filename="src/core/balle.h" />
+		<Unit filename="src/core/block.cpp" />
+		<Unit filename="src/core/block.h" />
+		<Unit filename="src/core/ennemi.cpp" />
+		<Unit filename="src/core/ennemi.h" />
+		<Unit filename="src/core/heros.cpp" />
+		<Unit filename="src/core/heros.h" />
+		<Unit filename="src/core/jeu.cpp" />
+		<Unit filename="src/core/jeu.h" />
+		<Unit filename="src/core/pickup.cpp" />
+		<Unit filename="src/core/pickup.h" />
+		<Unit filename="src/sfml/main_sfml.cpp" />
+		<Unit filename="src/sfml/menu.cpp" />
+		<Unit filename="src/sfml/menu.h" />
+		<Unit filename="src/sfml/terrain_sfml.cpp" />
+		<Unit filename="src/sfml/terrain_sfml.h" />
+		<Unit filename="src/txt/main_txt.cpp" />
+		<Unit filename="src/txt/txtJeu.cpp" />
+		<Unit filename="src/txt/txtJeu.h" />
+		<Unit filename="src/txt/winTxt.cpp" />
+		<Unit filename="src/txt/winTxt.h" />
+		<Unit filename="src/var/variables.cpp" />
+		<Unit filename="src/var/variables.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
